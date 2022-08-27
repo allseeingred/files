@@ -35,6 +35,7 @@
         "IsFlagArgument": true,
         "ParamFieldName": "vvvvvv",
         "IncludeInCommandLine": true,
+		"SkipIfEmpty": true,
         "DefaultValue": "",
         "EnumValues": {
             "vvvvvv": "True",
@@ -52,6 +53,7 @@
         "ParamFieldName": "M",
         "IncludeInCommandLine": true,
         "DefaultValue": "",
+		"SkipIfEmpty": true,
         "EnumValues": {
             "M": "True",
             "": "False"
@@ -82,6 +84,7 @@
         "IncludeInCommandLine": true,
         "DefaultValue": "",
         "EnumValues": {}
+		"SkipIfEmpty": true,
     },
     {
         "DisplayName": "MAC Address",
@@ -95,5 +98,6 @@
         "IncludeInCommandLine": true,
         "DefaultValue": "",
         "EnumValues": {}
+		"SkipIfEmpty": true,
     }
 ]
