@@ -34,8 +34,8 @@
         "InputType": "checkbox",
         "IsFlagArgument": true,
         "ParamFieldName": "vvvvvv",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "vvvvvv",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
         "EnumValues": {
             "vvvvvv": "True",
             "": "False"
@@ -48,9 +48,9 @@
         "Keywords": "security",
         "FieldName": "M",
         "InputType": "checkbox",
-        "IsFlagArgument": false,
+        "IsFlagArgument": true,
         "ParamFieldName": "M",
-        "IncludeInCommandLine": false,
+        "IncludeInCommandLine": true,
         "DefaultValue": "",
         "EnumValues": {
             "M": "True",
@@ -79,7 +79,7 @@
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "l",
-        "IncludeInCommandLine": false,
+        "IncludeInCommandLine": true,
         "DefaultValue": "",
         "EnumValues": {}
     },
@@ -92,7 +92,7 @@
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "m",
-        "IncludeInCommandLine": false,
+        "IncludeInCommandLine": true,
         "DefaultValue": "",
         "EnumValues": {}
     }
