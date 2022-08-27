@@ -1,0 +1,41 @@
+[
+    {
+        "DisplayName": "Port",
+        "Category": "Settings",
+        "Description": "Sets the port to bind to",
+        "Keywords": "port",
+        "FieldName": "p",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "p",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "7777",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Management Password",
+        "Category": "Settings",
+        "Description": "Set a management password to use the API",
+        "Keywords": "management",
+        "FieldName": "-management-password",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "-management-password",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "RandomPassword",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Federation Name",
+        "Category": "Settings",
+        "Description": "Set the federation name",
+        "Keywords": "federation",
+        "FieldName": "F",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "F",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "MyFederation",
+        "EnumValues": {}
+    }
+]
