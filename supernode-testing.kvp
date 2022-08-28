@@ -30,4 +30,4 @@ Meta.DisplayName=Supernode Testing
 Meta.EndpointURIFormat=
 Meta.OS=2
 Meta.URL=https://github.com/ntop/n2n
-Meta.SpecificDockerImage=redstonegamer/amp:test3
+Meta.SpecificDockerImage=redstonegamer/amp:n2n
